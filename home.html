@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <title>HZC - Home</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="assets/img/profile_1.png" alt="imagem do perfil" class="cabecalho__perfil">
+        <p class="perfil--nome">Bruno Lopes</p>
+        <button class="cabecalho__notificacao"><i></i></button>
+    </header>
+
+    <nav class="menu-lateral">
+        <img src="assets/img/logo.svg" alt="Logotipo da hzc" class="menu-lateral__logo">
+        <a href="home.html" class="menu-lateral__link menu-lateral__link--inicio">Início</a>
+        <a href="videos.html" class="menu-lateral__link menu-lateral__link--videos">Vídeos</a>
+        <a href="picos.html" class="menu-lateral__link menu-lateral__link--picos">Picos</a>
+        <a href="integrantes.html" class="menu-lateral__link menu-lateral__link--integrantes">Integrantes</a>
+        <a href="camisas.html" class="menu-lateral__link menu-lateral__link--camisas">Camisas</a>
+        <a href="pinturas.html" class="menu-lateral__link menu-lateral__link--pinturas">Pinturas</a>
+    </nav>
+
+    <main class="principal">
+        <h1 class="titulos titulos__inicio">Início</h1>
+        <article class="cartao cartao-destaque">
+            <img src="assets/img/banner_1.png" alt="imagem do cartao" class="cartao__imagem">
+            <div class="cartao__conteudo">
+                <h2 class="cartao__descricao">Vídeo em destaque</h2>
+                <h1 class="cartao__titulo">HZC - Life is... / 2021</h1>
+                <p class="cartao__perfil">Bruno Lopes</p>
+                <p class="cartao__info cartao__info--minutos">33 minutos</p>
+                <p class="cartao__info cartao__info--visualizacoes">53 visualizações</p>
+                <button class="cartao__botao cartao__botao--destaque">Assistir agora</button>
+            </div>
+        </article>
+
+        <article class="videos-recentes">
+            <h2 class="cartao__descricao">Vídeos recentes</h2>
+            <ul class="videos-recentes--lista">
+                <li class="lista__postagem">
+                    <img src="assets/img/miniatura_1.png" alt="video recente" class="lista__postagem-img">
+                    <h3 class="lista__postagem-titulo">HZC - Love Machine</h3>
+                    <p class="lista__postagem-autor">Julia Fonseca</p>
+                </li>
+
+                <li class="lista__postagem">
+                    <img src="assets/img/miniatura_2.png" alt="video recente" class="lista__postagem-img">
+                    <h3 class="lista__postagem-titulo">HZC - Vol. 3</h3>
+                    <p class="lista__postagem-autor">Julia Fonseca</p>
+                </li>
+
+                <li class="lista__postagem">
+                    <img src="assets/img/miniatura_3.png" alt="video recente" class="lista__postagem-img">
+                    <h3 class="lista__postagem-titulo">HZC - Pescaria na urca</h3>
+                    <p class="lista__postagem-autor">Julia Fonseca</p>
+                </li>
+
+                <li class="lista__postagem">
+                    <img src="assets/img/miniatura_4.png" alt="video recente" class="lista__postagem-img">
+                    <h3 class="lista__postagem-titulo">Vidalocagi - Guerreiros do asfalto</h3>
+                    <p class="lista__postagem-autor">Julia Fonseca</p>
+                </li>
+
+                <li class="lista__postagem">
+                    <img src="assets/img/miniatura_1.png" alt="video recente" class="lista__postagem-img">
+                    <h3 class="lista__postagem-titulo">Vidalocagi - Nao importa o nivel</h3>
+                    <p class="lista__postagem-autor">Julia Fonseca</p>
+                </li>
+            </ul>
+        </article>
+    </main>
+
+    <section class="mais-vistos">
+        <h1 class="titulos titulos--mais-vistos">Vídeos mais vistos</h1>
+        <article class="cartao cartao__mais-vistos">
+            <img src="assets/img/video_1.png" alt="thumbnail" class="mais-vistos__imagem">
+            <div class="mais-vistos__conteudo">
+                <p class="cartao__perfil">Andre Soares</p>
+                <h1 class="cartao__titulo cartao__titulo--mais-vistos">HZC - Tudo sem padrin</h1>
+                <p class="cartao__info cartao__info--minutos">33 minutos</p>
+                <button class="cartao__botao">Assistir</button>
+            </div>
+        </article>
+        <article class="cartao cartao__mais-vistos">
+            <img src="assets/img/video_2.png" alt="thumbnail" class="mais-vistos__imagem">
+            <div class="mais-vistos__conteudo">
+                <p class="cartao__perfil">Bruno Lopes</p>
+                <h1 class="cartao__titulo cartao__titulo--mais-vistos">HZC - Enter the hu-flex</h1>
+                <p class="cartao__info cartao__info--minutos">33 minutos</p>
+                <button class="cartao__botao">Assistir</button>
+            </div>
+        </article>
+        <article class="cartao cartao__mais-vistos">
+            <img src="assets/img/video_3.png" alt="thumbnail" class="mais-vistos__imagem">
+            <div class="mais-vistos__conteudo">
+                <p class="cartao__perfil">Luiza Sampaio</p>
+                <h1 class="cartao__titulo cartao__titulo--mais-vistos">HZC - Vol. 3</h1>
+                <p class="cartao__info cartao__info--minutos">33 minutos</p>
+                <button class="cartao__botao">Assistir</button>
+            </div>
+        </article>
+        <article class="cartao cartao__mais-vistos">
+            <img src="assets/img/video_4.png" alt="thumbnail" class="mais-vistos__imagem">
+            <div class="mais-vistos__conteudo">
+                <p class="cartao__perfil">Bruno Lopes</p>
+                <h1 class="cartao__titulo cartao__titulo--mais-vistos">HZC - Love Machine</h1>
+                <p class="cartao__info cartao__info--minutos">33 minutos</p>
+                <button class="cartao__botao">Assistir</button>
+            </div>
+        </article>
+    </section>
+</body>
+</html>

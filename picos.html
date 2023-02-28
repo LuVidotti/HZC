@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <title>HZC - Picos</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="assets/img/profile_1.png" alt="imagem do perfil" class="cabecalho__perfil">
+        <p class="perfil--nome">Bruno Lopes</p>
+        <button class="cabecalho__notificacao"><i></i></button>
+    </header>
+
+    <nav class="menu-lateral">
+        <img src="assets/img/logo.svg" alt="Logotipo da hzc" class="menu-lateral__logo">
+        <a href="home.html" class="menu-lateral__link menu-lateral__link--inicio">Início</a>
+        <a href="videos.html" class="menu-lateral__link menu-lateral__link--videos">Vídeos</a>
+        <a href="picos.html" class="menu-lateral__link menu-lateral__link--picos">Picos</a>
+        <a href="integrantes.html" class="menu-lateral__link menu-lateral__link--integrantes">Integrantes</a>
+        <a href="camisas.html" class="menu-lateral__link menu-lateral__link--camisas">Camisas</a>
+        <a href="pinturas.html" class="menu-lateral__link menu-lateral__link--pinturas">Pinturas</a>
+    </nav>
+
+    <main class="picos">
+        <h1 class="titulos titulos__picos">Picos</h1>
+        <img src="assets/img/mapa-picos.png" alt="mapa dos picos da cidade" class="picos__mapa">
+
+        <article class="videos-recentes">
+            <h2 class="cartao__descricao">Favoritos</h2>
+            <ul class="videos-recentes--lista">
+                <li class="lista__postagem">
+                    <img src="assets/img/miniatura_1.png" alt="video recente" class="lista__postagem-img">
+                    <h3 class="lista__postagem-titulo">Wallride da FGP</h3>
+                    <p class="lista__postagem-autor">Julia Fonseca</p>
+                </li>
+
+                <li class="lista__postagem">
+                    <img src="assets/img/miniatura_2.png" alt="video recente" class="lista__postagem-img">
+                    <h3 class="lista__postagem-titulo">Borda de valores</h3>
+                    <p class="lista__postagem-autor">Julia Fonseca</p>
+                </li>
+
+                <li class="lista__postagem">
+                    <img src="assets/img/miniatura_3.png" alt="video recente" class="lista__postagem-img">
+                    <h3 class="lista__postagem-titulo">Wallride do reboucas</h3>
+                    <p class="lista__postagem-autor">Julia Fonseca</p>
+                </li>
+
+                <li class="lista__postagem">
+                    <img src="assets/img/miniatura_4.png" alt="video recente" class="lista__postagem-img">
+                    <h3 class="lista__postagem-titulo">2* setor da praça mauá</h3>
+                    <p class="lista__postagem-autor">Julia Fonseca</p>
+                </li>
+
+                <li class="lista__postagem">
+                    <img src="assets/img/miniatura_1.png" alt="video recente" class="lista__postagem-img">
+                    <h3 class="lista__postagem-titulo">Borda de valores</h3>
+                    <p class="lista__postagem-autor">Julia Fonseca</p>
+                </li>
+            </ul>
+        </article>
+    </main>
+
+    <section class="mais-vistos">
+        <h1 class="titulos titulos--mais-vistos">Mais visitados</h1>
+        <article class="cartao cartao__mais-vistos">
+            <img src="assets/img/video_1.png" alt="thumbnail" class="mais-vistos__imagem">
+            <div class="mais-vistos__conteudo">
+                <p class="cartao__perfil">Bruno Lopes</p>
+                <h1 class="cartao__titulo cartao__titulo--mais-vistos">Gap do Itaú</h1>
+                <p class="cartao__info cartao__info--visualizacoes">53 visualizações</p>
+                <button class="cartao__botao cartao__botao--picos">Ver</button>
+            </div>
+        </article>
+        <article class="cartao cartao__mais-vistos">
+            <img src="assets/img/video_2.png" alt="thumbnail" class="mais-vistos__imagem">
+            <div class="mais-vistos__conteudo">
+                <p class="cartao__perfil">Luiza Sampaio</p>
+                <h1 class="cartao__titulo cartao__titulo--mais-vistos">Gap com mureta</h1>
+                <p class="cartao__info cartao__info--visualizacoes">53 visualizações</p>
+                <button class="cartao__botao cartao__botao--picos">Ver</button>
+            </div>
+        </article>
+        <article class="cartao cartao__mais-vistos">
+            <img src="assets/img/video_3.png" alt="thumbnail" class="mais-vistos__imagem">
+            <div class="mais-vistos__conteudo">
+                <p class="cartao__perfil">André Soares</p>
+                <h1 class="cartao__titulo cartao__titulo--mais-vistos">Rampa da entrada</h1>
+                <p class="cartao__info cartao__info--visualizacoes">53 visualizações</p>
+                <button class="cartao__botao cartao__botao--picos">Ver</button>
+            </div>
+        </article>
+        <article class="cartao cartao__mais-vistos">
+            <img src="assets/img/video_4.png" alt="thumbnail" class="mais-vistos__imagem">
+            <div class="mais-vistos__conteudo">
+                <p class="cartao__perfil">Julia Fonseca</p>
+                <h1 class="cartao__titulo cartao__titulo--mais-vistos">Wallride da pedra portuguesa</h1>
+                <p class="cartao__info cartao__info--visualizacoes">53 visualizações</p>
+                <button class="cartao__botao cartao__botao--picos">Ver</button>
+            </div>
+        </article>
+    </section>
+</body>
+</html>
